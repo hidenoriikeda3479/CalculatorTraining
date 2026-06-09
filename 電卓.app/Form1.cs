@@ -14,7 +14,7 @@ namespace 電卓.app
         int signalCode2;
 
         // 計算に用いる箱
-        double number1;
+        decimal number1;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -32,7 +32,10 @@ namespace 電卓.app
             string box1 = ((System.Windows.Forms.Button)sender).Text;
             SetNumber(box1);
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="btnNumber"></param>
         private void SetNumber(string btnNumber)
         {
             if (signalCode1 != default)
@@ -66,12 +69,15 @@ namespace 電卓.app
             string box2 = ((System.Windows.Forms.Button)sender).Text;
             SetSignal(box2);
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="btnSignal"></param>
         private void SetSignal(string btnSignal)
         {
             //　演算子が入力されたことと１つ目の数字の保存
             signalCode1 = 1;
-            number1 = double.Parse(textBox1.Text);
+            number1 = decimal.Parse(textBox1.Text);
 
             switch (btnSignal)
             {
@@ -122,11 +128,14 @@ namespace 電卓.app
         {
             textBox1.Text = SetEqual();
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         private string SetEqual()
         {
-            double number3 = 0;
-            double number2 = double.Parse(textBox1.Text);
+            decimal number3 = 0;
+            decimal number2 = decimal.Parse(textBox1.Text);
             signalCode1 = 1;
 
             switch(signalCode2)
