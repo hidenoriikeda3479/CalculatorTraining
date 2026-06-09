@@ -104,7 +104,11 @@ namespace 電卓.app
         /// <param name="e"></param>
         private void buttonD_Click(object sender, EventArgs e)
         {
-            textBox1.Text += ".";
+            if (!textBox1.Text.Contains("."))
+            {
+                textBox1.Text += ".";
+            }
+            
         }
 
         /// <summary>
