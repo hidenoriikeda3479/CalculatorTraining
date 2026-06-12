@@ -15,6 +15,7 @@ namespace 電卓.app
 
         // 計算に用いる箱
         decimal number1;
+        decimal number2;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -33,7 +34,7 @@ namespace 電卓.app
             SetNumber(box1);
         }
         /// <summary>
-        /// 
+        /// 数字ボタンクリックイベントの中身
         /// </summary>
         /// <param name="btnNumber"></param>
         private void SetNumber(string btnNumber)
@@ -66,11 +67,17 @@ namespace 電卓.app
         /// <param name="e"></param>
         private void buttonOperator_Click(object sender, EventArgs e)
         {
+            if(signalCode1 == default && signalCode2 != default)
+            {
+                textBox1.Text = SetEqual();
+    　　　　}
+
+
             string box2 = ((System.Windows.Forms.Button)sender).Text;
             SetSignal(box2);
         }
         /// <summary>
-        /// 
+        /// 演算子ボタンクリックイベントの中身
         /// </summary>
         /// <param name="btnSignal"></param>
         private void SetSignal(string btnSignal)
@@ -106,6 +113,7 @@ namespace 電卓.app
         {
             if (!textBox1.Text.Contains("."))
             {
+                //　テキストボックス内にドットがなければ文字列結合
                 textBox1.Text += ".";
             }
             
@@ -130,17 +138,30 @@ namespace 電卓.app
         /// <param name="e"></param>
         private void buttonE_Click(object sender, EventArgs e)
         {
+            
             textBox1.Text = SetEqual();
+            
         }
         /// <summary>
-        /// 
+        /// イコール・演算子クリック後の計算式
         /// </summary>
         /// <returns></returns>
         private string SetEqual()
         {
             decimal number3 = 0;
-            decimal number2 = decimal.Parse(textBox1.Text);
-            signalCode1 = 1;
+
+            if (signalCode1 == 2)
+            {
+                //　すでにイコールが押されていた時
+                number1 = decimal.Parse(textBox1.Text);
+            }
+            else
+            {
+                //　押されていない時
+                number2 = decimal.Parse(textBox1.Text);
+            }
+
+            signalCode1 = 2;
 
             switch(signalCode2)
             {

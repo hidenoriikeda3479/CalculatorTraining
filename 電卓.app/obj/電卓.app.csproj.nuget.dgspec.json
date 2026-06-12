@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\otsukaissei\\source\\repos\\電卓.app\\電卓.app\\電卓.app.csproj": {}
+    "C:\\Users\\otsukaissei\\Documents\\CalculatorTraining\\電卓.app\\電卓.app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\otsukaissei\\source\\repos\\電卓.app\\電卓.app\\電卓.app.csproj": {
+    "C:\\Users\\otsukaissei\\Documents\\CalculatorTraining\\電卓.app\\電卓.app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\otsukaissei\\source\\repos\\電卓.app\\電卓.app\\電卓.app.csproj",
+        "projectUniqueName": "C:\\Users\\otsukaissei\\Documents\\CalculatorTraining\\電卓.app\\電卓.app.csproj",
         "projectName": "電卓.app",
-        "projectPath": "C:\\Users\\otsukaissei\\source\\repos\\電卓.app\\電卓.app\\電卓.app.csproj",
+        "projectPath": "C:\\Users\\otsukaissei\\Documents\\CalculatorTraining\\電卓.app\\電卓.app.csproj",
         "packagesPath": "C:\\Users\\otsukaissei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\otsukaissei\\source\\repos\\電卓.app\\電卓.app\\obj\\",
+        "outputPath": "C:\\Users\\otsukaissei\\Documents\\CalculatorTraining\\電卓.app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\otsukaissei\\AppData\\Roaming\\NuGet\\NuGet.Config",
