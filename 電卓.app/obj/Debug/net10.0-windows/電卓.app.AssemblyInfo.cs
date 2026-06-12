@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("電卓.app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d874711d3c9c2cf7acd127f1c42608d98d16058b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12279da3eed95a64c632b735413b364de0b42ba8")]
 [assembly: System.Reflection.AssemblyProductAttribute("電卓.app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("電卓.app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

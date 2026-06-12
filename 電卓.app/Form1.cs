@@ -161,6 +161,7 @@ namespace 電卓.app
                 number2 = decimal.Parse(textBox1.Text);
             }
 
+            // イコールが押されたことを保存する
             signalCode1 = 2;
 
             switch(signalCode2)

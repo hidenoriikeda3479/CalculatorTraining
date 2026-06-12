@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{F6306A9D-8327-A7DA-DEEB-D03834C4342A}|\u96FB\u5353.app\\\u96FB\u5353.app.csproj|solutionrelative:\u96FB\u5353.app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6306A9D-8327-A7DA-DEEB-D03834C4342A}|\u96FB\u5353.app\\\u96FB\u5353.app.csproj|c:\\users\\otsukaissei\\documents\\calculatortraining\\\u96FB\u5353.app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F6306A9D-8327-A7DA-DEEB-D03834C4342A}|\u96FB\u5353.app\\\u96FB\u5353.app.csproj|C:\\Users\\otsukaissei\\Documents\\CalculatorTraining\\\u96FB\u5353.app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F6306A9D-8327-A7DA-DEEB-D03834C4342A}|\u96FB\u5353.app\\\u96FB\u5353.app.csproj|solutionrelative:\u96FB\u5353.app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "\u96FB\u5353.app\\Form1.cs",
               "ToolTip": "C:\\Users\\otsukaissei\\Documents\\CalculatorTraining\\\u96FB\u5353.app\\Form1.cs",
               "RelativeToolTip": "\u96FB\u5353.app\\Form1.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAcwCAAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-09T10:57:59.474Z",
               "EditorCaption": ""
@@ -46,21 +46,19 @@
               "ToolTip": "C:\\Users\\otsukaissei\\Documents\\CalculatorTraining\\\u96FB\u5353.app\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
               "RelativeToolTip": "\u96FB\u5353.app\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T10:56:31.641Z",
-              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+              "WhenOpened": "2026-06-09T10:56:31.641Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "\u96FB\u5353.app",
+              "Title": "\u96FB\u5353.app.csproj",
               "DocumentMoniker": "C:\\Users\\otsukaissei\\Documents\\CalculatorTraining\\\u96FB\u5353.app\\\u96FB\u5353.app.csproj",
               "RelativeDocumentMoniker": "\u96FB\u5353.app\\\u96FB\u5353.app.csproj",
               "ToolTip": "C:\\Users\\otsukaissei\\Documents\\CalculatorTraining\\\u96FB\u5353.app\\\u96FB\u5353.app.csproj",
               "RelativeToolTip": "\u96FB\u5353.app\\\u96FB\u5353.app.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-09T10:55:58.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-09T10:55:58.388Z"
             }
           ]
         }
